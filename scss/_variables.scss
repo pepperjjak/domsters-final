@@ -1,0 +1,37 @@
+/* colors */
+
+
+// breakpoint
+$breakpoints     : ( small: 600px, large: 1200px );
+
+$h1-font-map     : ( null: (2em, 1.2), small: (2em, 1.1) );
+$h2-font-map     : ( null: (1.5em, 1), small: (2em, 1.1) );
+$h3-font-map     : ( null: (1em, 0.8), small: (1.5em, 1.0) );
+$table-font-map  : ( null: (.6em, 1.4), small: (.8em, 1.0) );
+
+$texas-rose      : #fb5;
+$tuna            : #334;
+$gun-powder      : #445;
+$porsche         : #eb6;
+$dolphin         : #667;
+$storm-gray      : #778;
+$flax            : #ec8;
+$pickled-bluewood: #345;
+$slate-gray      : #789;
+$steel-gray      : #223;
+$almond          : #edc;
+$santas-gray     : #99a;
+$titan-white     : #eef;
+$juniper         : #799;
+$malta           : #ba9;
+$bone            : #dcb;
+$coral-reef      : #cba;
+
+// breakpoints
+$small           : 550px;
+$medium          : 769px;
+$large           : 960px;
+$desktop         : 1200px;
+
+// $widelayout      : ( columns: 24, gutters: 1/4, math: fluid, output: float, gutter-position: split );
+// @include layout(12 (60px 10px) split static);

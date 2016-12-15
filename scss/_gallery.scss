@@ -1,0 +1,27 @@
+.main.main.gallery {
+  align-self: center;
+}
+
+#image-gallery {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $medium)  {
+      flex-direction: row;
+  }
+
+
+  li {
+  }
+
+  img {
+    padding: 10px;
+    justify-content: space-around;
+  }
+}
+
+#placeholder {
+  width: 100%;
+  height: auto;
+}

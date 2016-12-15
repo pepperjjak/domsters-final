@@ -1,0 +1,97 @@
+body {
+  margin: 1em 10%;
+  background-image: url(../images/background.gif);
+  background-attachment: fixed;
+  background-position: top left;
+  background-repeat: repeat-x;
+  max-width: 80em;
+  color: $texas-rose;
+  background-color: $tuna;
+}
+
+a:link {
+  color: $gun-powder;
+}
+a:visited {
+  color: $pickled-bluewood;
+}
+a:hover {
+  color: $dolphin;
+}
+a:active {
+  color: #778;
+}
+
+#intro {
+  line-height: 25px;
+}
+
+#intro a {
+  border-radius: 3px 3px;
+  padding: 2px;
+  background-color: $texas-rose;
+}
+
+#imagegallery a {
+  background-color: transparent;
+}
+
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  padding: 3em;
+  @media screen and ($medium) {
+      justify-content: flex-end;
+  }
+
+  color: $steel-gray;
+  background-color: $almond;
+  border-color: $dolphin;
+    img {
+      border-color: $malta;
+      outline-color: $bone;
+    }
+}
+
+#slideshow {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+img#frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-width: 0;
+  outline-width: 0;
+}
+img#preview {
+  position: absolute;
+  border-width: 0;
+  outline-width: 0;
+}
+dl {
+  overflow: hidden;
+}
+dt {
+  float: left;
+}
+dd {
+  float: left;
+}
+label {
+  display: block;
+}
+fieldset {
+  border: 0;
+}
+td {
+  padding: .5em 3em;
+}
+
+footer {
+  align-content: center;
+}

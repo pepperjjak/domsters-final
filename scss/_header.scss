@@ -1,0 +1,73 @@
+.header {
+    background         : none;
+    display            : flex;
+    flex-direction     : column;
+    padding            : 10px;
+    border-width       : 0.1em;
+    border-style       : solid;
+    border-bottom-width: 0;
+    // @include breakpoint($large)
+    @media screen and (min-width: $large) {
+        background-image   : url('../images/guitarist.gif');
+        background-repeat  : no-repeat;
+        background-position: bottom right;
+    }
+    color              : $flax;
+    background-color   : $tuna;
+    border-color       : $dolphin;
+
+    .logo {
+        align-self: center;
+    }
+    // @include breakpoint($medium)
+    @media screen and (min-width: $medium) {
+        justify-content: flex-end;
+    }
+    // @include breakpoint($desktop)
+    @media screen and (min-width: $desktop) {
+        .logo {
+            align-self: flex-start;
+        }
+    }
+
+    @media screen and (max-width: $small) {
+      .logo {
+        width: 100%;
+        height: auto;
+        max-width: 350px;
+      }
+    }
+
+}
+
+.page-id-8 .header {
+  @media screen and (min-width: $large) {
+      background-image   : url('../images/lineup.gif');
+      background-repeat  : no-repeat;
+      background-position: bottom right;
+  }
+}
+
+.page-id-10 .header {
+  @media screen and (min-width: $large) {
+      background-image   : url('../images/basshead.gif');
+      background-repeat  : no-repeat;
+      background-position: bottom right;
+  }
+}
+
+.page-id-12 .header {
+  @media screen and (min-width: $large) {
+      background-image   : url('../images/bassist.gif');
+      background-repeat  : no-repeat;
+      background-position: bottom right;
+  }
+}
+
+.page-id-14 .header {
+  @media screen and (min-width: $large) {
+      background-image   : url('../images/drummer.gif');
+      background-repeat  : no-repeat;
+      background-position: bottom right;
+  }
+}
